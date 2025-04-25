@@ -47,7 +47,7 @@ with st.sidebar:
     st.markdown("<h3 style='color: white;'>En esta aplicación veremos la capacidad que ahora tiene una máquina de interpretar un boceto, mucho más que números.</h3>", unsafe_allow_html=True)
 
 # Subtítulo principal
-st.markdown("<h3 style='color: blue;'>Dibuja el boceto en el panel y presiona el botón para analizarl.</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='color: white;'>Dibuja el boceto en el panel y presiona el botón para analizarl.</h3>", unsafe_allow_html=True)
 
 # Parámetros del canvas
 drawing_mode = "freedraw"
