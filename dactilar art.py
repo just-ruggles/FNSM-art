@@ -37,8 +37,13 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Título principal en rojo
-st.markdown("<h1 style='color: red;'>Tablero Inteligente FNSM</h1>", unsafe_allow_html=True)
+# Título principal centrado y en rojo
+st.markdown(
+    """
+    <h1 style='color: red; text-align: center;'>Tablero Inteligente FNSM</h1>
+    """,
+    unsafe_allow_html=True
+)
 
 # Panel lateral
 with st.sidebar:
